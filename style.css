@@ -57,7 +57,8 @@ header {
     width: 25px;
     font-size: 20px;
     border:none;
-    background-color: white;
+    background-color: none;
+    color: black;
     cursor: pointer;
     outline: none;
 }
@@ -73,6 +74,10 @@ header {
     background-color: white;
     border-radius: 8px;    
 }
+
+
+
+
 
 @media(max-width:700px){
     #title {
@@ -159,3 +164,25 @@ header {
     }
 
 }
+
+
+
+/*
+@media only screen and (max-width:500px){
+    #title {
+        font-size: 20px;
+    }
+    
+    .input-area {
+        width: 200px;
+    }
+
+    #input {
+        width: 150px;
+    }
+
+    header {
+        height: 100px;
+    }
+
+}*/
