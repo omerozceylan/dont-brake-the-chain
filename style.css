@@ -91,7 +91,6 @@ header {
 
 
 
-
 @media(max-width:700px){
     #title {
         font-size: 40px;
@@ -101,6 +100,7 @@ header {
         height: 80px;
     }
 }
+
 
 @media(max-width:590px){
     #title {
@@ -120,6 +120,29 @@ header {
     }
 
 }
+
+@media only screen and (max-width:500px){
+    #title {
+        font-size: 35px;
+    }
+    
+    .input-area {
+        width: 400px;
+    }
+
+    #input {
+        width: 350px;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    #addButton {
+        margin-right: 3px;
+    }
+}
+
 
 @media(max-width:450px){
     #title {
@@ -181,24 +204,3 @@ header {
 
 
 
-@media only screen and (max-width:500px){
-    #title {
-        font-size: 20px;
-    }
-    
-    .input-area {
-        width: 200px;
-    }
-
-    #input {
-        width: 150px;
-    }
-
-    header {
-        height: 100px;
-    }
-
-  
-
-
-}
