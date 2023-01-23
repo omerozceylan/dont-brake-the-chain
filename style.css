@@ -10,6 +10,19 @@ body {
     
 }
 
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    text-align: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #title {
     font-size: 40px;
     color: azure;
@@ -57,7 +70,7 @@ header {
     width: 25px;
     font-size: 20px;
     border:none;
-    background-color: none;
+    background-color: white;
     color: black;
     cursor: pointer;
     outline: none;
